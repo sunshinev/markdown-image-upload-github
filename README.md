@@ -6,6 +6,8 @@
 
 
 > 在编写markdown文件中，截图作说明，可以直接截图后将图片上传到github，并且返回markdown格式的图片语法
+> 
+> https://github.com/sunshinev/markdown-image-upload-github
 
 **注意**：Pillow模块不支持从剪贴板获取gif图片，所以目前不支持gif上传
 
@@ -43,6 +45,8 @@ pip install Pillow
 | github_repo     | 图床仓库名称       |
 | github_username | 用户名             |
 | project_path    | 本地的图床项目路径 |
+
+**注意**：请先确保`project_path`对应的`Github`项目可以正常使用git命令操作
 
 ![image](https://github.com/sunshinev/remote_pics/raw/master/kapture-alfred2.gif)
 
