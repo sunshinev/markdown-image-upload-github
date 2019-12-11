@@ -1,9 +1,9 @@
-<center>
+
 # Alfred Workflow 一键上传图片到github 
 ![](https://img.shields.io/badge/Mac-osx-brightgreen)
 ![](https://img.shields.io/badge/Alfred-workflow-brightgreen)
 ![](https://img.shields.io/badge/Markdown-Github-brightgreen)
-</center>
+
 
 > 在编写markdown文件中，截图作说明，可以直接截图后将图片上传到github，并且返回markdown格式的图片语法
 
