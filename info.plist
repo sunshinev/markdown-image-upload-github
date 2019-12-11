@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.alfredapp.sunshinev.markdown-image-upload-github</string>
+	<key>connections</key>
+	<dict>
+		<key>7F06D968-A68C-481E-83C0-7B45F509D2D1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>C619708E-9381-4950-817E-24C5DAA150D0</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>C619708E-9381-4950-817E-24C5DAA150D0</key>
+		<array/>
+	</dict>
+	<key>createdby</key>
+	<string>sunshinev</string>
+	<key>description</key>
+	<string>upload jpg/png image to github</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Markdown image upload github</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>script</key>
+				<string>python main.py</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string>/www/jaysun/sunshinev/markdown-upload-image/main.py</string>
+				<key>type</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>C619708E-9381-4950-817E-24C5DAA150D0</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>action</key>
+				<integer>0</integer>
+				<key>argument</key>
+				<integer>0</integer>
+				<key>focusedappvariable</key>
+				<false/>
+				<key>focusedappvariablename</key>
+				<string></string>
+				<key>hotkey</key>
+				<integer>5</integer>
+				<key>hotmod</key>
+				<integer>1048576</integer>
+				<key>hotstring</key>
+				<string>G</string>
+				<key>leftcursor</key>
+				<false/>
+				<key>modsmode</key>
+				<integer>0</integer>
+				<key>relatedAppsMode</key>
+				<integer>0</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.trigger.hotkey</string>
+			<key>uid</key>
+			<string>7F06D968-A68C-481E-83C0-7B45F509D2D1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>Use hotkeys to launch actions by pressing a key combination. You can connect one or more actions to be performed.
+
+Hotkeys are stripped on import, to ensure that they don't clash with your existing hotkeys, so double-click the object and set your own hotkey.
+
+A hotkey needs to contain a modifier (Cmd, Ctrl or Alt) and a keyboard character at least, but your best bet is to use slightly less common combinations (e.g. two modifiers) to avoid clashing with default OS X hotkeys or other apps on your Mac.</string>
+	<key>uidata</key>
+	<dict>
+		<key>7F06D968-A68C-481E-83C0-7B45F509D2D1</key>
+		<dict>
+			<key>colorindex</key>
+			<integer>4</integer>
+			<key>note</key>
+			<string>1. To add a hotkey, right-click the canvas and choose Triggers &gt; Hotkey.
+
+2. Double-click the hotkey object to set or change your hotkey.
+
+3. Connect your hotkey to the Action you want to use by hovering over the first object and dragging from the connector that appears to the right.</string>
+			<key>xpos</key>
+			<integer>220</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+		<key>C619708E-9381-4950-817E-24C5DAA150D0</key>
+		<dict>
+			<key>xpos</key>
+			<integer>575</integer>
+			<key>ypos</key>
+			<integer>45</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>github_repo</key>
+		<string>remote_pics</string>
+		<key>github_username</key>
+		<string>sunshinev</string>
+		<key>project_path</key>
+		<string>/www/jaysun/sunshinev/remote_pics</string>
+	</dict>
+	<key>version</key>
+	<string>1.0</string>
+	<key>webaddress</key>
+	<string>https://github.com/sunshinev</string>
+</dict>
+</plist>
