@@ -4,9 +4,10 @@
 ![](https://img.shields.io/badge/Alfred-workflow-brightgreen)
 ![](https://img.shields.io/badge/Markdown-Github-brightgreen)
 
+有没有在写markdown时，因为想上传一张图片而苦恼？
 
-> 在编写markdown文件中，截图作说明，可以直接截图后将图片上传到github，并且返回markdown格式的图片语法
-> 
+现在可以直接截图后将图片上传到github，并且返回markdown格式的图片语法
+
 > https://github.com/sunshinev/markdown-image-upload-github
 
 **注意**：Pillow模块不支持从剪贴板获取gif图片，所以目前不支持gif上传
