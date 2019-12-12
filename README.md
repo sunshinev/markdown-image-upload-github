@@ -63,7 +63,28 @@ pip install Pillow
 1. 复制图片文件
 2. command+g
 
+## Fork 建议
+### 能否支持其他git仓库呢？可以的
 
-## 说明
+因为脚本的上传动作完全是由下面的git命令完成的，推送到远端仓库
 
-相关原理借鉴了[《快速上传图片到七牛云空间kaito-kidd/markdown-image-alfred》](https://github.com/kaito-kidd/markdown-image-alfred) 
+```python
+    # Git
+    cmd = '''
+    cd {}
+    git add .
+    git commit -m 'clipboard'
+    git push'''.format(self.project_path)
+```
+所以我们只需要，保证`project_path`的仓库是支持git命令即可，比如可以提交到gitLab自己搭建的仓库等。
+
+### 能否支持gif图片呢？
+1. 目前Pillow不支持gif上传
+2. 如果采用`Pyobjc`的`AppKit`模块中的`NSPasteboard`，会受到操作系统版本的影响，可能需要安装最新的Pyobjc
+
+## 相关资料
+[Using Variables in Workflows](https://www.alfredapp.com/help/workflows/advanced/variables/)
+
+[Overview: What are workflows?](https://www.alfredapp.com/help/workflows/)
+
+[《快速上传图片到七牛云空间kaito-kidd/markdown-image-alfred》](https://github.com/kaito-kidd/markdown-image-alfred) 
