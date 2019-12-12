@@ -2,7 +2,11 @@
 # Alfred Workflow 一键上传图片到github 
 ![](https://img.shields.io/badge/Mac-osx-brightgreen)
 ![](https://img.shields.io/badge/Alfred-workflow-brightgreen)
-![](https://img.shields.io/badge/Markdown-Github-brightgreen)
+![GitHub last commit](https://img.shields.io/github/last-commit/sunshinev/markdown-image-upload-github)
+![GitHub](https://img.shields.io/github/license/sunshinev/markdown-image-upload-github)
+![GitHub repo size](https://img.shields.io/github/repo-size/sunshinev/markdown-image-upload-github)
+![GitHub stars](https://img.shields.io/github/stars/sunshinev/markdown-image-upload-github?style=social)
+![GitHub forks](https://img.shields.io/github/forks/sunshinev/markdown-image-upload-github?style=social)
 
 有没有在写markdown时，因为想上传一张图片而苦恼？
 
