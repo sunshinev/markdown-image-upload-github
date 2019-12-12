@@ -92,4 +92,4 @@ pip install Pillow
 
 [Overview: What are workflows?](https://www.alfredapp.com/help/workflows/)
 
-[《快速上传图片到七牛云空间kaito-kidd/markdown-image-alfred》](https://github.com/kaito-kidd/markdown-image-alfred) 
+[快速上传图片到七牛云空间kaito-kidd/markdown-image-alfred](https://github.com/kaito-kidd/markdown-image-alfred) 
