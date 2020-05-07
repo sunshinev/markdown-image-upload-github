@@ -17,7 +17,8 @@ class Uploader:
 	github_repo = ''
 
 	# default master branch
-	__MARKDOWN_IMG_URL = '![{}](https://github.com/{}/{}/raw/master/{})';
+	# __MARKDOWN_IMG_URL = '![{}](https://github.com/{}/{}/raw/master/{})';
+	__MARKDOWN_IMG_URL = '![{}](https://cdn.jsdelivr.net/gh/{}/{}/{})';
 
 
 	def __init__(self, file):

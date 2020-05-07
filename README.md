@@ -1,5 +1,6 @@
 
 # Alfred Workflow 一键上传图片到github 
+
 ![](https://img.shields.io/badge/Mac-osx-brightgreen)
 ![](https://img.shields.io/badge/Alfred-workflow-brightgreen)
 ![GitHub last commit](https://img.shields.io/github/last-commit/sunshinev/markdown-image-upload-github)
@@ -12,11 +13,13 @@
 
 现在可以直接截图后将图片上传到github，并且返回markdown格式的图片语法
 
-> https://github.com/sunshinev/markdown-image-upload-github
+- 旧版本 https://github.com/sunshinev/remote_pics/xxx.jpg
+- 新版本(CDN加速) https://cdn.jsdelivr.net/gh/sunshinev/remote_pics/xxx.jpg
+
 
 **注意**：Pillow模块不支持从剪贴板获取gif图片，所以目前不支持gif上传
 
-![image](https://github.com/sunshinev/remote_pics/raw/master/kapture-alfred.gif)
+![image](https://cdn.jsdelivr.net/gh/sunshinev/remote_pics/kapture-alfred.gif)
 
 ## 运行环境
 
@@ -53,7 +56,7 @@ pip install Pillow
 
 **注意**：请先确保`project_path`对应的`Github`项目可以正常使用git命令操作
 
-![image](https://github.com/sunshinev/remote_pics/raw/master/kapture-alfred2.gif)
+![image](https://cdn.jsdelivr.net/gh/sunshinev/remote_pics/kapture-alfred2.gif)
 
 
 ## 上传图片
@@ -93,3 +96,6 @@ pip install Pillow
 [Overview: What are workflows?](https://www.alfredapp.com/help/workflows/)
 
 [快速上传图片到七牛云空间kaito-kidd/markdown-image-alfred](https://github.com/kaito-kidd/markdown-image-alfred) 
+
+## 升级信息
+新增将图片地址转换为cdn加速 `https://cdn.jsdelivr.net/gh`
